@@ -10,27 +10,27 @@ window.onload = () => {
   console.log("Hola Rigo");
 };
 let generateExcuse = () => {
-  let pronoun = ["El", "Un"];
-  let subject = ["perro", "gato", "loro", "policía", "cocodrilo", "perro"];
-  let action = ["robó", "tomó", " agarró", " desapareció"];
-  let possetion = ["la llave", "mi celular", "mi ID", "mi ropa"];
-  let where = ["en la calle", "en mi casa", "en el autobús"];
+  let pronombre = ["El", "Un"];
+  let sujeto = ["perro", "gato", "loro", "policía", "cocodrilo", "perro"];
+  let accion = ["robó", "tomó", " agarró", " desapareció"];
+  let posesion = ["la llave", "mi celular", "mi ID", "mi ropa"];
+  let lugar = ["en la calle", "en mi casa", "en el autobús"];
 
-  let proIndex = Math.floor(Math.random() * pronoun.length);
-  let subjIndx = Math.floor(Math.random() * subject.length);
-  let actionIndex = Math.floor(Math.random() * action.length);
-  let possetionIndex = Math.floor(Math.random() * possetion.length);
-  let whereIndex = Math.floor(Math.random() * where.length);
+  let pronombreA = Math.floor(Math.random() * pronombre.length);
+  let sujetoA = Math.floor(Math.random() * sujeto.length);
+  let accionA = Math.floor(Math.random() * accion.length);
+  let posesionA = Math.floor(Math.random() * posesion.length);
+  let lugarA = Math.floor(Math.random() * lugar.length);
 
   return (
-    pronoun[proIndex] +
+    pronombre[pronombreA] +
     " " +
-    subject[subjIndx] +
+    sujeto[sujetoA] +
     " " +
-    action[actionIndex] +
+    accion[accionA] +
     " " +
-    possetion[possetionIndex] +
+    posesion[posesionA] +
     " " +
-    where[whereIndex]
+    lugar[lugarA]
   );
 };
