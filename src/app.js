@@ -11,10 +11,10 @@ window.onload = () => {
 };
 let generateExcuse = () => {
   let pronoun = ["El", "Un"];
-  let subject = ["perro", "gato", "loro", "policia", "cocodrilo", "perro"];
-  let action = ["robo", "tomo", " dejo", " desaparecio"];
-  let possetion = ["la llave", "mi celular", "mi cedula", "mi ropa"];
-  let where = ["en la calle", "en mi casa", "en el autobus"];
+  let subject = ["perro", "gato", "loro", "policía", "cocodrilo", "perro"];
+  let action = ["robó", "tomó", " agarró", " desapareció"];
+  let possetion = ["la llave", "mi celular", "mi ID", "mi ropa"];
+  let where = ["en la calle", "en mi casa", "en el autobús"];
 
   let proIndex = Math.floor(Math.random() * pronoun.length);
   let subjIndx = Math.floor(Math.random() * subject.length);
